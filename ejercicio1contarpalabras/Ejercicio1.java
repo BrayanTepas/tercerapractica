@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class Main { 
+public class Ejercicio1 { 
     public static void main(String[] args) { 
         // Crea un objeto Scanner para leer la entrada de datos desde la consola (teclado).
         Scanner scanner = new Scanner(System.in);

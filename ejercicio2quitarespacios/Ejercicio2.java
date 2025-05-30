@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class Main { 
+public class Ejercicio2 { 
     public static void main(String[] args) { 
 
         // Crea una instancia de la clase Scanner para obtener la entrada del usuario.
