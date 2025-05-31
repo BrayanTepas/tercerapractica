@@ -1,7 +1,7 @@
 package ejercicio1numordenadostreeset;
 
 import java.util.Scanner;
-import java.util.Set; //se importa Set para poder crear un objeto TreeSet
+import java.util.Set; // Para el tipo de la variable sin esto no funciona treeSet
 import java.util.TreeSet; //se importa TreeSet para poder crear un objeto TreeSet
 
 public class Ejercicio1 {
