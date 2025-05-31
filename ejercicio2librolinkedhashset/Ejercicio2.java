@@ -41,11 +41,8 @@ public class Ejercicio2 {
             // Intentamos añadir el libro al LinkedHashSet
             // add() retorna true si el elemento se añadió exitosamente (no era un duplicado)
             // y false si el elemento ya existía (es un duplicado según equals())
-            if (coleccionLibros.add(nuevoLibro)) {
-                System.out.println("Libro agregado: " + nuevoLibro.getTitulo());
-            } else {
-                System.out.println("ERROR: Ya existe un libro con el ID '" + id + "'. No se agregó el duplicado.");
-            }
+            coleccionLibros.add(nuevoLibro);
+            System.out.println("Libro agregado");
 
         } while (true); // Bucle infinito hasta que el usuario escriba 'fin'
 
